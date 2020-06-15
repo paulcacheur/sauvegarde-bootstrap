@@ -1,0 +1,139 @@
+
+/* interface responsive */
+
+html {
+    font-size: 100%;
+}
+
+
+/* mise en forme barre navigation header / footer */
+
+    nav ul, footer ul
+    {
+        Display: flex;
+        flex-direction: row;
+        background-color: black;
+     
+    }
+
+    nav ul li, footer ul li
+    {    
+        margin: 1vw;
+        list-style-type: none;
+    }
+
+    nav>ul>li>a, footer ul li a
+ {
+    color:white;
+ }
+
+
+
+ /* mise en forme header top image et texte  */
+
+ div
+{ 
+    display:flex ;
+    align-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+    }
+
+    div>img
+{
+    text-align: flex-start;
+    width:30%;
+    /* lignes à ajouter pour rendre une image responsive */
+    height: auto;
+     max-width: 100%;
+     
+
+}
+
+    div>p
+{
+    text-align: center;
+    /* unité taille web responsive */
+    font-size: 3rem;
+    width: 70%;
+    height: auto;
+}
+
+
+/* image promotion */
+
+#promotion
+{
+    height: auto;
+    max-width: 100%;
+}
+
+/* boite grise à droite */
+
+.article
+{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: space-between;
+}
+
+#article_de_gauche
+{
+    width: 60%;
+    font-size: 1rem;
+}
+
+#article_de_droite
+{
+    background-color: grey;
+    width: 40%;
+    box-shadow: 1rem 1rem 0rem #aaa; 
+}
+
+#titre_article_de_droite
+{
+    font-size: 1rem;
+}
+
+/*    back up
+
+.article
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#article_de_gauche
+{
+    width: 60%;
+}
+
+#article_de_droite
+{
+    background-color: grey;
+    width: 40%;
+    height: 60vh;
+}
+
+#titre_article_de_droite
+{
+    font-size: 10pt;
+}
+*/
+
+/*  
+xxx
+    {
+        display: flex ;
+        justify-content:flex-start;
+        text-align: center;
+        vertical-align:middle;
+        width: 1060px;
+        height: auto;
+        padding: 0px 0px 0px 2px;
+        border: 5px solid black;
+        margin: 20px 0 20px 0;
+    }
+*/
